@@ -58,7 +58,7 @@ class BarcodeScanPlugin : FlutterPlugin, ActivityAware {
             return
         }
 
-        activityHelper!!.activity = null
+//         activityHelper!!.activity = null
     }
 
     override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {
